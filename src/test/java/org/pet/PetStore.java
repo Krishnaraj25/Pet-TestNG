@@ -91,6 +91,35 @@ public class PetStore  {
 		String s=js2.get("status[0]");
 		System.out.println(s);
 	}
+	@Test(priority=4)
+	public void put() {
+		String R4=given().log().all().header("Content-Type","application/json").body("{\r\n" + 
+				"  \"id\": 151,\r\n" + 
+				"  \"category\": {\r\n" + 
+				"    \"id\": 13,\r\n" + 
+				"    \"name\": \"CAT\"\r\n" + 
+				"  },\r\n" + 
+				"  \"name\": \"Tuna\",\r\n" + 
+				"  \"photoUrls\": [\r\n" + 
+				"    \"string\"\r\n" + 
+				"  ],\r\n" + 
+				"  \"tags\": [\r\n" + 
+				"    {\r\n" + 
+				"      \"id\": 15,\r\n" + 
+				"      \"name\": \"Pussy\"\r\n" + 
+				"    }\r\n" + 
+				"  ],\r\n" + 
+				"  \"status\": \"sold\"\r\n" + 
+				"}").when().put("/pet").then().log().all().assertThat().statusCode(200)
+		.extract().response().asString();
+		JsonPath js3=new JsonPath(R4);
+		int PutId=js3.get("id");
+		System.out.println(PutId);
+		String name=js3.get("category.name");
+		System.out.println(name);
+		String Status=js3.get("status");
+		System.out.println(Status);
+	}
 	
 	
 	

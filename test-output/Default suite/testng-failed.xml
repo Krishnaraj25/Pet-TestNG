@@ -8,7 +8,7 @@
           <include name="before"/>
           <include name="after"/>
           <include name="beforeMethod"/>
-          <include name="findStatus" invocation-numbers="0 1 2"/>
+          <include name="put"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- org.pet.PetStore -->
