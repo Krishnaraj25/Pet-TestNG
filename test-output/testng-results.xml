@@ -1,114 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10213" started-at="2022-08-18T05:49:23Z" finished-at="2022-08-18T05:49:33Z">
+  <suite name="Default suite" duration-ms="3376" started-at="2022-08-18T21:35:18Z" finished-at="2022-08-18T21:35:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10213" started-at="2022-08-18T05:49:23Z" finished-at="2022-08-18T05:49:33Z">
-      <class name="org.pet.PetStore">
-        <test-method status="PASS" signature="before()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="before" is-config="true" duration-ms="7" started-at="2022-08-18T11:19:23Z" finished-at="2022-08-18T11:19:23Z">
+    <test name="Default test" duration-ms="3376" started-at="2022-08-18T21:35:18Z" finished-at="2022-08-18T21:35:22Z">
+      <class name="org.jira.JiraIssue">
+        <test-method status="PASS" signature="Session()[pri:1, instance:org.jira.JiraIssue@548a9f61]" name="Session" duration-ms="2273" started-at="2022-08-19T03:05:18Z" finished-at="2022-08-19T03:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="post()[pri:1, instance:org.pet.PetStore@68be2bc2]" name="post" duration-ms="3438" started-at="2022-08-18T11:19:23Z" finished-at="2022-08-18T11:19:27Z">
+        </test-method> <!-- Session -->
+        <test-method status="PASS" signature="Issue()[pri:2, instance:org.jira.JiraIssue@548a9f61]" name="Issue" duration-ms="579" started-at="2022-08-19T03:05:21Z" finished-at="2022-08-19T03:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- post -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:23Z" finished-at="2022-08-18T11:19:23Z">
+        </test-method> <!-- Issue -->
+        <test-method status="PASS" signature="Comment()[pri:3, instance:org.jira.JiraIssue@548a9f61]" name="Comment" duration-ms="98" started-at="2022-08-19T03:05:21Z" finished-at="2022-08-19T03:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-18T11:19:27Z" finished-at="2022-08-18T11:19:27Z">
+        </test-method> <!-- Comment -->
+        <test-method status="PASS" signature="Attachment()[pri:4, instance:org.jira.JiraIssue@548a9f61]" name="Attachment" duration-ms="396" started-at="2022-08-19T03:05:21Z" finished-at="2022-08-19T03:05:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="get()[pri:2, instance:org.pet.PetStore@68be2bc2]" name="get" duration-ms="1234" started-at="2022-08-18T11:19:27Z" finished-at="2022-08-18T11:19:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:27Z" finished-at="2022-08-18T11:19:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:28Z" finished-at="2022-08-18T11:19:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:28Z" finished-at="2022-08-18T11:19:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="findStatus(java.lang.String)[pri:3, instance:org.pet.PetStore@68be2bc2]" name="findStatus" duration-ms="1226" started-at="2022-08-18T11:19:28Z" data-provider="status" finished-at="2022-08-18T11:19:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sold]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findStatus -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-18T11:19:29Z" finished-at="2022-08-18T11:19:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:29Z" finished-at="2022-08-18T11:19:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="findStatus(java.lang.String)[pri:3, instance:org.pet.PetStore@68be2bc2]" name="findStatus" duration-ms="1829" started-at="2022-08-18T11:19:29Z" data-provider="status" finished-at="2022-08-18T11:19:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findStatus -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-08-18T11:19:31Z" finished-at="2022-08-18T11:19:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="findStatus(java.lang.String)[pri:3, instance:org.pet.PetStore@68be2bc2]" name="findStatus" duration-ms="1257" started-at="2022-08-18T11:19:31Z" data-provider="status" finished-at="2022-08-18T11:19:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pending]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findStatus -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:31Z" finished-at="2022-08-18T11:19:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:32Z" finished-at="2022-08-18T11:19:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="put()[pri:4, instance:org.pet.PetStore@68be2bc2]" name="put" duration-ms="1193" started-at="2022-08-18T11:19:32Z" finished-at="2022-08-18T11:19:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- put -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:32Z" finished-at="2022-08-18T11:19:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:33Z" finished-at="2022-08-18T11:19:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="after()[pri:0, instance:org.pet.PetStore@68be2bc2]" name="after" is-config="true" duration-ms="0" started-at="2022-08-18T11:19:33Z" finished-at="2022-08-18T11:19:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- org.pet.PetStore -->
+        </test-method> <!-- Attachment -->
+      </class> <!-- org.jira.JiraIssue -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

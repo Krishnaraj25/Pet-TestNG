@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.pet.PetStore">
+      <class name="org.jira.JiraIssue">
         <methods>
-          <include name="before"/>
-          <include name="after"/>
-          <include name="beforeMethod"/>
-          <include name="put"/>
-          <include name="afterMethod"/>
+          <include name="Attachment"/>
         </methods>
-      </class> <!-- org.pet.PetStore -->
+      </class> <!-- org.jira.JiraIssue -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

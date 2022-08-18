@@ -2,8 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
+  <parameter name="URL" value="http://localhost:8080/"></parameter>
     <classes>
-      <class name="org.pet.PetStore"/>
+      
+      <class name="org.jira.JiraIssues"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
