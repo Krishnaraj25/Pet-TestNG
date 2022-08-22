@@ -33,5 +33,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/jackson-databind-2.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/jackson-annotations-2.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/jackson-core-2.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/gson-2.9.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
